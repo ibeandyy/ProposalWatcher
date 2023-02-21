@@ -49,6 +49,7 @@ export class DiscordClient extends Client {
               });
             }
             channel.send({
+              content: '@here'
               embeds: [embed],
             });
             // try {
